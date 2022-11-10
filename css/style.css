@@ -1,0 +1,146 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: url(/assets/mario--s27nY8mZUE-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#icon {
+  width: 12rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: 2px 5px 8px;
+  margin-left: 8%;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.section h1 {
+  color: white;
+}
+#nav-icon {
+  width: 3rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: 2px 5px 8px;
+  cursor: pointer;
+  margin-left: 20%;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#signUp {
+  color: white;
+  background-color: orangered;
+  border: none;
+  height: 2rem;
+  border-radius: 10px;
+  width: 15rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#login {
+  color: black;
+  background-color: rgba(128, 128, 128, 0.5);
+  border: none;
+  height: 2rem;
+  border-radius: 10px;
+  width: 15rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  height: 50%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: orangered;
+}
+.showcase {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container {
+  width: 200px;
+  padding: 1rem;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  color: white;
+}
+.form-container input {
+  width: 50%;
+  height: 2.5rem;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.form-container h1 {
+  margin-bottom: 1rem;
+}
+::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.form-container a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+}
+input {
+  outline: none;
+}
+.form-container img {
+  width: 2rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+.form-container img:hover {
+  background-color: orangered;
+}
