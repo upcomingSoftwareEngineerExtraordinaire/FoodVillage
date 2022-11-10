@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/download (1).png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/2a366167b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>FOOD VILLAGE - Your on the go delivery</title>
+  </head>
+  <body>
+    <div class="icon-container">
+      <img
+        src="/assets/download (1).png"
+        alt="icon"
+        id="nav-icon"
+        onclick="returnHome()"
+      />
+      <h3>Food Village</h3>
+    </div>
+    <form action="" class="form-container">
+      <h1>Login</h1>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email Address"
+        required
+      />
+      <input
+        type="password"
+        name="pwd"
+        id="pwd"
+        placeholder="Password"
+        required
+      />
+      <p><a href="/login.html" style="color: white">Forget password</a></p>
+      <input type="submit" value="Login" id="signUp" style="margin-top: 1rem" />
+      <h3>OR</h3>
+      <div class="social-container">
+        <img src="/assets/google.svg" alt="google" />
+        <img src="/assets/square-instagram.svg" alt="instagram" />
+        <img src="/assets/twitter.svg" alt="twitter" />
+      </div>
+      <p>Don't have an account? <a href="/signUp.html">Sign Up</a></p>
+    </form>
+    <script src="/js/behaviour.js"></script>
+  </body>
+</html>
